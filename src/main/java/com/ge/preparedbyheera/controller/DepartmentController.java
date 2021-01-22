@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ge.preparedbyheera.model.Department;
 import com.ge.preparedbyheera.repository.DepartmentRepository;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class DepartmentController {
 
